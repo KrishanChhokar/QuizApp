@@ -4,7 +4,7 @@ const cors = require('cors');
 const app = express()
 app.use(cors(
   {
-    origin: ["https://quiz-app-frontend-drab.vercel.app/login"],
+    origin: ["https://quiz-app-frontend-drab.vercel.app"],
     methods: ["POST", "GET"],
     credentials: true
   }
